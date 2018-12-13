@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="padding: 0px 0px 10px 10px;background-color: #eeebe8;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <img class="light-logo" alt="Abacus Insights | Better Data, Better Care" height="50" width="140" src="assets/img/abacus-logo.png" (click)="openHome()" style="cursor:pointer;margin-top:10px;margin-right:10px;margin-left:10px;">
+          </li>
+          <li class="nav-item">
+            <span class="navbar-text" style="font-size:40px;font-family:Catamaran;color:#504236;font-weight:bold;padding: 10px 220px 10px 10px;">Analytics Workbench </span>
+          </li>
+          <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0" style="padding:20px 10px 10px 10px;">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" style="font-size:15px;font-family:Roboto;" data-toggle="modal" data-target="#exampleModal">
+            </form>
+          </li>
+          <li class="nav-item">
+            <p class="text-center" style="font-size:20px;font-family:Roboto;color:#504236;margin-top:25px;"> John Doe </p>
+          </li>
+          <li class="nav-item">
+            <span>
+              <img src="assets/img/notification1.png" width="55%" height="70%" data-toggle="modal" data-target="#exampleModal" style="cursor:pointer;margin-top:10px;margin-bottom:10px;margin-left:20px;"/>
+            </span>
+          </li>
+          <li class="nav-item">
+            <span class="dropdown">
+              <img class="dropdown-toggle" id="menu1" src="assets/img/settings1.png" width="50%" height="70%" style="cursor:pointer;margin-top:10px;margin-left:10px;margin-right:20px;margin-bottom:10px;" data-toggle="dropdown"/>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="border-color:#FE5419">
+                <li role="presentation" style="font-size:15px;font-family:Roboto;color:#504236;cursor:pointer;" data-toggle="modal" data-target="#exampleModal">Customize</li>
+                <li role="presentation" style="font-size:15px;font-family:Roboto;color:#504236;cursor:pointer;" data-toggle="modal" data-target="#exampleModal">View Permissions</li>
+              </ul>
+            </span>
+          </li>
+      </ul>
+  </div>		
+</nav>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Response</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          This feature is not active yet
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

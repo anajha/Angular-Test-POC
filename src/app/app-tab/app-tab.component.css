@@ -1,0 +1,11 @@
+.card-deck
+{
+  width:60%;
+}
+.card .card-hover:hover{
+ border-left-width:thick;
+ border-left-color:#FE5419;
+ border-right-color:#FE5419;
+ border-top-color:#FE5419;
+ border-bottom-color:#FE5419;
+}

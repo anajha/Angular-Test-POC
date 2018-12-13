@@ -1,0 +1,22 @@
+<app-header></app-header>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #eeebe8;padding:12px 0px 0px 0px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li [ngClass]="jupyterOption" (click)="clickJupyter()" style="color:#504236;padding:10px 10px 0px 10px;font-size:17px;font-family:Roboto;cursor:pointer;">
+            Jupyter
+        </li>
+        <li [ngClass]="zeppelinOption" (click)="clickZeppelin()" style="color:#504236;padding:10px 10px 0px 10px;font-size:17px;font-family:Roboto;cursor:pointer;">
+            Zeppelin
+        </li>
+        <li [ngClass]="rstudioOption" (click)="clickRstudio()" style="color:#504236;padding:10px 10px 0px 10px;font-size:17px;font-family:Roboto;cursor:pointer;">
+            R Studio
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="card">
+    <iframe [src]="url | safe" frameborder="0" [width]="width_dev" [height]="height_dev"></iframe>
+  </div>

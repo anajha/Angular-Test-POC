@@ -1,0 +1,16 @@
+.nav-tabs .nav-link
+{
+border:0px;
+}   
+.active
+{
+background-color:white;
+}
+.nav-item:hover
+{
+background-color:#FE5419;
+}
+.nav-link
+{
+padding: 0px 15px 2px 15px;
+}

@@ -1,0 +1,8 @@
+{
+    "/v1/fetchfiles": {
+      "target": "https://njtb6q1ctj.execute-api.us-east-1.amazonaws.com",
+      "secure": true,
+      "changeOrigin": true
+    }
+}
+

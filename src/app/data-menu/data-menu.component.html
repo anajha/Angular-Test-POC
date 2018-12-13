@@ -1,0 +1,58 @@
+<div class="card-body">	
+    <div id="accordion1">
+      <div>
+        <span style="font-size:20px;font-family:Roboto;color:#504236;">
+          <button (click)="onClickCollapse1()" class="btn" style="padding:0px 0px 0px 0px;background-color:white;border:0px;" id="collapse-button1">
+            <span class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="padding:5px 5px 10px 5px;border:0px">
+              <img [src]="image1" width="50%" height="50%" id="collapse-image1"/>
+            </span>
+          </button> My Folio
+          <img src="assets/img/create.png" style="max-width:35px;max-height:35px;float:right;"  data-toggle="modal" data-target="#exampleModal"/>
+        </span>
+      </div>
+      <div id="collapseOne" class="collapse" data-parent="#accordion1">
+        <div class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+      <br/>
+      <br/>
+    <div id="accordion2">	
+      <span style="font-size:20px;font-family:Roboto;color:#504236;">
+        <button (click)="onClickCollapse2()" class="btn" style="padding:0px 0px 0px 0px;background-color:white;border:0px;" id="collapse-button2">
+          <span class="btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="padding:5px 5px 10px 5px;border:0px">
+            <img [src]="image2" width="50%" height="50%" id="collapse-image2"/>
+          </span>
+        </button> Shared Folio	
+      </span>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion2">
+        <div class="card-body">
+          <ul style="list-style: none;">
+              <li style="color:#504236;font-family:Roboto;">OCR DF1.ipnyb   
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <br/>
+      <br/>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Response</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            This feature is not active yet
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>

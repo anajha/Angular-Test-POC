@@ -1,0 +1,12 @@
+<div class="card-header text-center" style="max-height:65px;font-size:17px;background-color: #eeebe8;">
+	<ul class="nav nav-tabs card-header-tabs align-middle">
+		<li [ngClass]="notebookItem" (click)="onClickNotebook()">
+			<a class="nav-link" routerLink="/home/notebookMenu" style="color:#504236;font-family:Roboto;">Notebook <br> Analyses</a>
+		</li>
+		<li [ngClass]="dataItem" (click)="onClickData()">
+			<a class="nav-link" routerLink="/home/dataMenu" style="color:#504236;margin-top:10px;font-family:Roboto;">Data</a>
+		</li>
+  </ul>
+</div>
+
+    
